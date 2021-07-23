@@ -8,7 +8,7 @@ body{
     flex-direction: column;
     min-height: 100vh;
     margin: 0;
-    background-image: url('/images/bg-pattern-top.svg'), url('/images/bg-pattern-bottom.svg');
+    background-image: url('../images/bg-pattern-top.svg'), url('../images/bg-pattern-bottom.svg');
     background-position-x: calc(50% - 27rem), calc(50% + 25.5rem);
     background-position-y: calc(50% - 30rem), calc(50% + 30rem);
     background-repeat: no-repeat, no-repeat;
@@ -64,7 +64,7 @@ h2{
     position: relative;
     min-width: 325px;
     min-height: 17,875rem;
-    background: white url('/images/bg-pattern-card.svg') no-repeat top;
+    background: white url('../images/bg-pattern-card.svg') no-repeat top;
 }
 a{
     color:white;
