@@ -1,0 +1,91 @@
+:root{
+    --dark-grey: hsl(0, 0%, 59%);
+}
+body{
+    background-color: hsl(185, 75%, 39%);
+    font-family: 'Kumbh Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    background-image: url('/images/bg-pattern-top.svg'), url('/images/bg-pattern-bottom.svg');
+    background-position-x: calc(50% - 27rem), calc(50% + 25.5rem);
+    background-position-y: calc(50% - 30rem), calc(50% + 30rem);
+    background-repeat: no-repeat, no-repeat;
+    
+}
+.main-wrapper{
+    margin: auto;
+    text-align: center;
+    overflow: hidden;
+    border-radius: 1rem 1rem 1rem 1rem;
+    background-color: white;
+}
+.avatar-section{
+    position: relative;
+    min-width: 325px;
+    min-height: 17,875rem;
+    background: white url('/images/bg-pattern-card.svg') no-repeat top;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    margin-top: 1.5rem;
+    padding: 0;
+    overflow: hidden;
+    border-top: 1px solid hsl(0, 0%, 59%, 0.3);
+    padding: 1.8rem 1.6rem 0.3rem 1.8rem;
+}
+li{
+    float: left;
+    flex: 1;
+    font-weight: 700;
+    font-size: 1.1rem;
+    letter-spacing: 0.06rem;
+}
+.list-caption{
+    font-weight: 400;
+    font-size: 0.6rem;
+    letter-spacing: 0.1rem;
+    color: var(--dark-grey);
+}
+p{
+    color: var(--dark-grey);
+    font-size: 0.85rem;
+    margin-top: 0;
+}
+img{
+    margin-top: 5.5rem;
+    border-radius: 50%;
+    border: white solid 0.32rem;
+    width: 6rem;
+    height: auto;
+}
+h2{
+    font-size: 1.1rem;
+    margin-bottom: 0.6rem;
+    margin-top: 1rem;
+}
+
+.age-span{
+    font-weight: 400;
+    color: var(--dark-grey);
+    margin-left: 0.38rem;
+}
+.attribution{
+    position: absolute;
+    align-self: center;
+    bottom: 3rem;
+    text-align: center;
+    color: black
+}
+
+@media (min-width:800px){
+    body{
+        background-position-x: calc(50% - 32.2em), calc(50% + 29rem);
+        background-position-y: calc(50% - 24rem), calc(50% + 31.5rem);
+    }
+    .avatar-section{
+        min-width: 350px;
+    }
+}

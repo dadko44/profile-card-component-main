@@ -1,35 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Profile card component</title>
+	<link rel="stylesheet" href="css/index.css">
+	<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+	<!-- google fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet"> 
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
+	<title>Frontend Mentor | Profile card component</title>
+	</head>
 <body>
-  Victor Crest
-  26
-  London
+	<div class="main-wrapper">
+		<section class="avatar-section">
+			<img src="images/image-victor.jpg">
+			<h2>Victor Crest <span class="age-span">26</span></h2>
+			<p>London</p>
+		</section>
+		<ul>
+			<li>
+				80K <br>
+				<span class="list-caption">Followers</span>
+			</li>
+			<li>
+				803K <br>
+				<span class="list-caption">Likes</span>
+			</li>
+			<li>
+				1.4K <br>
+				<span class="list-caption">Photos</span>
+			</li>
+		</ul>
+	</div>
 
-  80K
-  Followers
-
-  803K
-  Likes
-
-  1.4K
-  Photos
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+	<!-- credits -->
+	<footer class="attribution">
+		Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+		Coded by <a href="#">Dawid Kuczer</a>.
+	</footer>
 </body>
 </html>
